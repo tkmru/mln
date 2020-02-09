@@ -1,5 +1,7 @@
 # mln
 
+![](https://github.com/tkmru/mln/workflows/Build/badge.svg)
+
 `mln` a replacement for ln written in Golang. `mln` create a symbolic link, not a hard link."
 
 ## Background
