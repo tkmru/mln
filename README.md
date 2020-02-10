@@ -4,14 +4,12 @@
 
 `mln` a replacement for ln written in Golang. `mln` create a symbolic link, not a hard link. It is inspired by [exa](https://github.com/ogham/exa).
 
+![demo](./img/demo.gif)
+
 ## Motivation
 
 Every time I use the ln command, it puzzles me not knowing whether any of the arguments is source_file or target_file.
 Also, maybe most people use the ln command to create only symbolic links, but creating a symbolic link requires the -s option. I wanted to make a symbolic link more easier, so I created `mln`.
-
-## Screenshot
-
-![image](./screenshot.gif)
 
 ## Installation
 

@@ -40,9 +40,9 @@ var rootCmd = &cobra.Command{
 			os.Exit(1)
 		}
 
-		fmt.Println(Cyan("Symbolic link created!!").Bold())
-		fmt.Printf("%s%s %s %s %s%s %s\n", Brown("From"), Gray(8-1, ":"), Green(symbolic_link).Bold(), 
-			Magenta("->"),  Brown("To"), Gray(8-1, ":"), Green(target).Bold())
+		fmt.Println("Successfully linked")
+		fmt.Printf("%s%s %s %s %s%s %s\n", Brown("From"), Gray(8-1, ":"), Cyan(symbolic_link).Bold(),
+			Magenta("->"),  Brown("To"), Gray(8-1, ":"), Cyan(target).Bold())
 	},
 }
 
