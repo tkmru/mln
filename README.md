@@ -13,13 +13,17 @@ Also, maybe most people use the ln command to create only symbolic links, but cr
 
 ## Installation
 
+### Binary
+
+Download the binary from [GitHub Releases](https://github.com/tkmru/mln/releases/) and drop it in your $PATH.
+
+### Manually Build
+
+You need Go 1.13 compiler.
+
 ```
 $ go get github.com/tkmru/mln
 ```
-
-or
-
-Download the binary from [GitHub Releases](https://github.com/tkmru/mln/releases/) and drop it in your $PATH.
 
 ## Usage
 
