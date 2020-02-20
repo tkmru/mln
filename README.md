@@ -34,7 +34,7 @@ $ mln -h
 A modern version of ln. `mln` create a symbolic link, not a hardlink.
 
 Usage:
-  mln [target <file/dir>/symlink file] [symlink file/target <file/dir>/] [flags]
+  mln [target <file/dir>/symlink file] [symlink file/target <file/dir>] [flags]
 
 Flags:
   -h, --help   help for mln

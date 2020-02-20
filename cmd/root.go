@@ -10,7 +10,7 @@ import (
 
 
 var rootCmd = &cobra.Command{
-	Use:   "mln [target <file/dir>/symlink file] [symlink file/target <file/dir>/]",
+	Use:   "mln [target <file/dir>/symlink file] [symlink file/target <file/dir>]",
 	Short: "A modern version of ln. `mln` create a symbolic link, not a hardlink.",
 	Args: cobra.MinimumNArgs(2),
 	Run: func(cmd *cobra.Command, args []string) {
