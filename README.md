@@ -1,5 +1,6 @@
 # mln
 [![GitHub release](https://img.shields.io/github/v/release/tkmru/mln.svg)](https://github.com/tkmru/mln/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/tkmru/mln/blob/master/LICENSE.md)
 ![](https://github.com/tkmru/mln/workflows/Build/badge.svg)
 
 `mln` a replacement for ln written in Golang. `mln` create a symbolic link, not a hard link. It is inspired by [exa](https://github.com/ogham/exa).
